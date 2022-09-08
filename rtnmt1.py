@@ -9,7 +9,7 @@ from PIL import Image, ImageOps
 def make_predict(img_pth):
     F1Score = mt.F1Score(num_classes=2, threshold=.5)
 
-    model = load_model('/home/tim/PycharmProjects/DataScience/computer_vision/RTMSD/model.h5',
+    model = load_model('./model.h5',
      compile=False, custom_objects={'F1Score':F1Score})
     """
     # img = load_img('/home/tim/Downloads/pexels-mathias-pr-reding-4646843.jpg', target_size=(224, 224))
