@@ -1,4 +1,5 @@
 tensorflow==2.5.0
+tensorflow_addons==0.14.0
 numpy==1.19.5
 streamlit==0.62.1
 opencv-python==4.5.3.56
