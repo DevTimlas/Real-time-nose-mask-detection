@@ -11,4 +11,4 @@ To test in real time
 - go into the rtnmt.py file
 - change the model directory & the cv2 cascade file directory
 - save the python file & run python rtnmt.py
-- your camera will pop up and, you'll see the model working 
+- a frame will pop up and, you'll see the model working 
